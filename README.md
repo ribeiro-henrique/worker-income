@@ -1,31 +1,34 @@
-###Worker Management System
-Este é um pequeno projeto de console em C# para gerenciar informações sobre trabalhadores e contratos em um serviço de entrega. Ele permite que você insira dados sobre departamentos, trabalhadores e seus contratos, e depois calcule a renda total de um trabalhador para um mês e ano específicos.
+# Delivery Management System
 
-#Funcionalidades
-Cadastro de Departamentos e Trabalhadores: Você pode registrar departamentos e trabalhadores associados a esses departamentos. Os dados incluem nome do departamento, nome do trabalhador, nível (Júnior, Pleno ou Sênior) e salário base.
+This is a small C# console project for managing information about workers and contracts in a delivery service. It allows you to input data about departments, workers, and their contracts, and then calculate the total income of a worker for a specific month and year.
 
-Registro de Contratos: Para cada trabalhador, você pode adicionar contratos que incluem informações como data, valor por hora e duração em horas.
+## Features
 
-Cálculo da Renda Total: Você pode calcular a renda total de um trabalhador para um mês e ano específicos. O programa somará o salário base do trabalhador com o valor total dos contratos dentro do mês e ano fornecidos.
+1. **Department and Worker Registration:** You can register departments and workers associated with those departments. Data includes department name, worker name, level (Junior, Mid-Level, or Senior), and base salary.
 
-#Como Usar
-Execute o programa e siga as instruções no console.
+2. **Contract Registration:** For each worker, you can add contracts that include information such as date, hourly rate, and duration in hours.
 
-Comece registrando o nome do departamento e os dados do trabalhador.
+3. **Total Income Calculation:** You can calculate the total income of a worker for a specific month and year. The program will sum the worker's base salary with the total value of contracts within the provided month and year.
 
-Em seguida, insira informações sobre os contratos do trabalhador. Você pode adicionar quantos contratos forem necessários.
+## How to Use
 
-Após registrar os contratos, você pode calcular a renda total do trabalhador para um mês e ano específicos.
+1. Run the program and follow the instructions in the console.
 
-O programa exibirá o nome do trabalhador, o nome do departamento e a renda total para o mês e ano especificados.
+2. Start by registering the department name and worker's data.
 
-###Tecnologias Utilizadas
-##Este projeto foi desenvolvido em C# e utiliza as seguintes tecnologias:
+3. Next, input information about the worker's contracts. You can add as many contracts as needed.
 
-Linguagem de Programação C#
-Enumerações (Enums) para representar os níveis dos trabalhadores
-Classes e objetos para representar trabalhadores, departamentos e contratos
-Entrada e saída de dados através do console
-Como Contribuir
-Este é um projeto simples, mas você pode contribuir de várias maneiras:
+4. After registering the contracts, you can calculate the worker's total income for a specific month and year.
+
+5. The program will display the worker's name, department name, and total income for the specified month and year.
+
+## Technologies Used
+
+This project was developed in C# and utilizes the following technologies:
+
+- C# Programming Language
+- Enumerations (Enums) to represent worker levels
+- Classes and objects to represent workers, departments, and contracts
+- Input and output of data through the console
+
 
